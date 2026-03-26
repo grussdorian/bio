@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography · Hardik Ghoshal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- ── Nav ──────────────────────────────────────────────────────────── -->
+<nav class="site-nav" id="site-nav">
+  <div class="nav-inner">
+    <span class="nav-brand headline">Hardik Ghoshal</span>
+    <div class="nav-links">
+      <a href="#gallery">Gallery</a>
+      <a href="#philosophy">Why I Do It</a>
+      <a href="/" class="nav-bio-link">← Bio</a>
+    </div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="#gallery" class="nav-mobile-link">Gallery</a>
+    <a href="#philosophy" class="nav-mobile-link">Why I Do It</a>
+    <a href="/">← Back to Bio</a>
+  </div>
+</nav>
+
+<!-- ── Hero ─────────────────────────────────────────────────────────── -->
+<!-- Hero image: photo 3  -  girl running through the parametric green
+     sculpture at TU Dresden science night. Portrait 2:3. -->
+<section class="photo-hero" id="hero">
+  <div class="photo-hero-inner">
+    <div class="fade-up">
+      <span class="hero-eyebrow">Photography by Hardik Ghoshal</span>
+      <h1 class="headline photo-hero-title">I click<br><span class="text-primary italic">people</span><br>to know more about them</h1>
+      <p class="photo-hero-sub">I don't do photography professionally, throughout 2025 I just <b>had</b> to take my camera around everywhere.</p>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap">
+        <a href="#gallery" class="btn-primary">View Gallery</a>
+        <a href="/" class="btn-secondary">← Back to Bio</a>
+      </div>
+    </div>
+    <div class="fade-in delay-2">
+      <!-- 3.jpg: 3691×5537, portrait 2:3  -  girl through circular green sculpture -->
+      <div class="photo-hero-img">
+        <img src="/photos/3.jpg" alt="Girl running through a glowing parametric sculpture at TU Dresden science night">
+        <div class="hero-img-overlay">
+          <span class="g-overlay-label">People · Dresden</span>
+          <span class="g-overlay-title">Through the Portal</span>
+          <span class="hero-img-caption">A girl darts through sculptures towards the light. TU Dresden's Science Night</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Gallery ──────────────────────────────────────────────────────── -->
+<section class="gallery-section" id="gallery">
+  <div class="gallery-inner">
+    <div class="gallery-header fade-up">
+      <div>
+        <h2 class="headline">Curated Works</h2>
+        <div class="h2-underline"></div>
+      </div>
+      <div class="gallery-filters">
+        <span class="active">All</span>
+        <span>Street</span>
+        <span>People</span>
+        <span>Places</span>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+
+      <!-- ── ROW 1: wide landscape + narrow portrait ── -->
+
+      <!-- 11.jpg: 2048×1366, landscape 3:2  -  foggy Christmas market, Annaberg-Buchholz -->
+      <div class="g-wide fade-up delay-1" data-category="Places">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/11.jpg" alt="Crowds at a foggy Christmas market, Annaberg-Buchholz">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">Places · Germany</span>
+            <span class="g-overlay-title">Winter Fog</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 13.jpg: 1366×2048, portrait 2:3  -  Mumbai night skyline -->
+      <div class="g-narrow fade-up delay-2" data-category="Places">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/13.jpg" alt="Mumbai city skyline blazing with lights at night">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">Places · India</span>
+            <span class="g-overlay-title">Twenty Million Lights</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── ROW 2: three portrait-cropped squares ── -->
+
+      <!-- 5.jpg: 4000×6000, portrait 2:3  -  Tolerave couple hugging, Dresden -->
+      <div class="g-third fade-up delay-1" data-category="People">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/5.jpg" alt="Two people hugging joyfully at the Tolerave procession in Dresden">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">People · Dresden</span>
+            <span class="g-overlay-title">Joy Is Political</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6.jpg: 4000×6000, portrait 2:3  -  Tolerave man lifted on shoulders, Dresden -->
+      <div class="g-third fade-up delay-2" data-category="People">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/6.jpg" alt="A smiling man lifted above the crowd at Tolerave, Dresden">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">People · Dresden</span>
+            <span class="g-overlay-title">Above the Crowd</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7.jpg: 858×1289, portrait 2:3  -  man alone with hat, Dresden -->
+      <div class="g-third fade-up delay-3" data-category="Street">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/7.jpg" alt="A man wearing a hat sits alone on a bench in golden autumn light, Dresden">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">Street · Dresden</span>
+            <span class="g-overlay-title">Autumn Solitude</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── ROW 3: two landscape halves ── -->
+
+      <!-- 1.JPG: 6000×4000, landscape 3:2  -  mother & child by the sea, Mallorca -->
+      <div class="g-half fade-up delay-1" data-category="People">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/1.JPG" alt="A mother sits beside her child with a stroller, facing the open Mediterranean sea, Palma de Mallorca">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">People · Spain</span>
+            <span class="g-overlay-title">Quiet Horizon</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12.jpg: 2048×1366, landscape 3:2  -  boxing match, referee stopping fight, Dresden -->
+      <div class="g-half fade-up delay-2" data-category="Street">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/12.jpg" alt="A boxing match mid-bout  -  the referee steps in to stop the fight, Dresden">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">Street · Dresden</span>
+            <span class="g-overlay-title">The Stoppage</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── ROW 4: narrow portrait + wide landscape ── -->
+
+      <!-- 4.jpg: 4000×6000, portrait 2:3  -  poor boy looking through restaurant glass, Mumbai -->
+      <div class="g-narrow fade-up delay-1" data-category="Street">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/4.jpg" alt="A barefoot boy looks through the glass of a café advertising wholesome food, Mumbai">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">Street · India</span>
+            <span class="g-overlay-title">Glass &amp; Hunger</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8.jpg: 1024×684, landscape 3:2  -  kid petting a street cat, Grenoble -->
+      <div class="g-wide fade-up delay-2" data-category="People">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/8.jpg" alt="A young boy crouches to gently pet a street cat outside a café, Grenoble">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">People · France</span>
+            <span class="g-overlay-title">First Contact</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── ROW 5: three portrait-cropped squares ── -->
+
+      <!-- 2.jpg: 3356×4860, portrait 2:3  -  dogs at Hundparkplatz in snow, Dresden -->
+      <div class="g-third-tall fade-up delay-1" data-category="Street">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/2.jpg" alt="Two Cavalier King Charles spaniels huddled together at the Hundparkplatz sign in the snow, Dresden">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">Street · Dresden</span>
+            <span class="g-overlay-title">Hundparkplatz</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9.jpg: 1080×1440, portrait 3:4  -  cat sleeping under ancient deity statue, Ellora caves -->
+      <div class="g-third-tall fade-up delay-2" data-category="Places">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/9.jpg" alt="A white cat curled beneath a towering ancient deity carved into the rock face, Ellora Caves">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">Places · India</span>
+            <span class="g-overlay-title">The Eternal Guard</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10.jpg: 1080×1440, portrait 3:4  -  ancient deity statue closeup, Ellora caves -->
+      <div class="g-third-tall fade-up delay-3" data-category="Places">
+        <div class="g-item">
+          <div class="g-item-inner">
+            <img src="/photos/10.jpg" alt="Close-up of an intricately carved stone deity from the 6th century, Ellora Caves, India">
+          </div>
+          <div class="g-overlay">
+            <span class="g-overlay-label">Places · India</span>
+            <span class="g-overlay-title">Millennia</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.gallery-grid -->
+  </div>
+</section>
+
+<!-- ── Behind the Lens ──────────────────────────────────────────────── -->
+<!-- Lens image: photo 1  -  the sea scene. Quiet, wide, meditative. -->
+<section class="lens-section" id="philosophy">
+  <div class="lens-inner">
+
+    <div class="lens-card fade-up">
+      <h2 class="headline">Behind the Lens</h2>
+
+      <div class="lens-block">
+        <p class="lens-label">Why?</p>
+        <p class="lens-val">I'm fascinated by the human condition. I go around and talk to people. Much of it is because there's this innate desire to socialize and connect with others (insert distributed systems joke here :P) Heavily inspired by Saul Leiter, Robert Frank and Helen Levitt. I shoot mainly in 35 and 75 on a sony A6700</p>
+      </div>
+
+      <div class="lens-specs">
+        <div>
+          <p class="lens-spec-label">Subjects</p>
+          <p class="lens-spec-val">People · Street · Temples &amp; Time · Animals</p>
+        </div>
+        <div>
+          <p class="lens-spec-label">Places Shot</p>
+          <p class="lens-spec-val">India · Germany · France · Spain · Czech Republic</p>
+        </div>
+        <div>
+          <p class="lens-spec-label">Based In</p>
+          <p class="lens-spec-val">Dresden, Germany · Originally Kolkata, India</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Lightbox ──────────────────────────────────────────────────────── -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">✕</button>
+  <div class="lightbox-img-wrap">
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-info">
+      <span class="lightbox-title" id="lightbox-title"></span>
+      <span class="lightbox-label" id="lightbox-label"></span>
+    </div>
+  </div>
+</div>
+
+<!-- ── Footer ────────────────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p class="footer-copy">© 2026 Hardik Ghoshal · Photography</p>
+    <div class="footer-links">
+      <a href="/">Bio</a>
+      <a href="https://github.com/grussdorian" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/hardik-ghoshal-96a3391b6/" target="_blank">LinkedIn</a>
+      <a href="mailto:hardik.ghoshal@mailbox.tu-dresden.de">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const hamburger = document.getElementById('hamburger');
+  const navMobile = document.getElementById('nav-mobile');
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('open');
+    navMobile.classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-mobile-link').forEach(a => {
+    a.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      navMobile.classList.remove('open');
+    });
+  });
+
+  // Scroll animations
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.fade-up, .fade-in, .slide-left, .slide-right').forEach(el => {
+    observer.observe(el);
+  });
+
+  // Hero fires immediately on load
+  document.querySelectorAll('.photo-hero .fade-up, .photo-hero .fade-in').forEach(el => {
+    setTimeout(() => el.classList.add('visible'), 80);
+  });
+
+  // Gallery filter  -  show/hide by data-category
+  document.querySelectorAll('.gallery-filters span').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.gallery-filters span').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.textContent.trim();
+      document.querySelectorAll('.gallery-grid [data-category]').forEach(item => {
+        const show = filter === 'All' || item.dataset.category === filter;
+        item.style.display = show ? '' : 'none';
+      });
+    });
+  });
+
+  // ── Lightbox ────────────────────────────────────────────────────────
+  const lightbox     = document.getElementById('lightbox');
+  const lbImg        = document.getElementById('lightbox-img');
+  const lbTitle      = document.getElementById('lightbox-title');
+  const lbLabel      = document.getElementById('lightbox-label');
+  const lbClose      = document.getElementById('lightbox-close');
+
+  function openLightbox(img, title, label) {
+    lbImg.src   = img.src;
+    lbImg.alt   = img.alt;
+    lbTitle.textContent = title || '';
+    lbLabel.textContent = label || '';
+    lightbox.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.g-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const img   = item.querySelector('img');
+      const title = item.querySelector('.g-overlay-title')?.textContent;
+      const label = item.querySelector('.g-overlay-label')?.textContent;
+      openLightbox(img, title, label);
+    });
+  });
+
+  lbClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', e => { if (e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+
+</body>
+</html>

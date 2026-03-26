@@ -1,0 +1,12 @@
+{
+  "name": "bio-page",
+  "version": "1.0.0",
+  "description": "Hardik's bio page",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
