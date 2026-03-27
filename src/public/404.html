@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-inner {
+      max-width: 540px;
+    }
+    .error-code {
+      font-size: clamp(6rem, 15vw, 10rem);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, var(--primary), var(--secondary, #6366f1));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .error-title {
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      margin-bottom: 1rem;
+    }
+    .error-desc {
+      color: var(--text-variant, #94a3b8);
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<div class="error-page">
+  <div class="error-inner">
+    <h1 class="headline error-code">404</h1>
+    <h2 class="headline error-title">Page Not Found</h2>
+    <p class="error-desc">The page you're looking for doesn't exist or has been moved. Maybe the URL is wrong, or maybe it never existed in the first place.</p>
+    <a href="/" class="btn-primary">Back to Home</a>
+  </div>
+</div>
+
+</body>
+</html>
